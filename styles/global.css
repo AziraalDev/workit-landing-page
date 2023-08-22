@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope&display=swap');
+
+/* @font-face {
     font-family: Fraunces;
     src: url(/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
@@ -12,7 +14,7 @@
 @font-face {
     font-family: Manrope;
     src: url(/assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
-}
+} */
 
 :root {
     --primary: #24053E;
