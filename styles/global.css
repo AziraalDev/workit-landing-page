@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(/assets/fonts/manrope/static/Manrope-Regular.ttf);
+}
+
+:root {
+    --primary: #24053E;
+    --secondary: #44FFA1;
+    --grey: #584D62;
+    --invisible: #fcf8ff;
+    --white: #fff;
+}
+
+body {
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+}
+
+.container{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width:1440px) {
+    body {
+        font-size: 18px;
+    }
+}
